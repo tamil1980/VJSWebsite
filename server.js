@@ -280,12 +280,23 @@ app.use((req, res) => {
 /* ---------- Error handler ---------- */
 app.use((err, req, res, next) => {
   if (err.type === "entity.parse.failed") {
-    return res.status(400).json({ ok: false, message: "Invalid request." });
+    return res.status(400).json({
+      ok: false,
+      message: "Invalid request."
+    });
   }
+
   console.error("[server-error]", err.message);
-  res.status(500).json({ ok: false, message: "Internal server error." });
+
+  res.status(500).json({
+    ok: false,
+    message: "Internal server error."
+  });
 });
 
-app.listen(PORT, () => {
-  console.log("VJS Soft Solutions website running at http://localhost:" + PORT);
+/* ---------- Start server ---------- */
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`VJS Soft Solutions website running on port ${PORT}`);
 });
