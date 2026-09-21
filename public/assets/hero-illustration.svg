@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12355e"/>
+      <stop offset="1" stop-color="#0a1a38"/>
+    </linearGradient>
+    <linearGradient id="cbg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e5fd0"/>
+      <stop offset="1" stop-color="#123d91"/>
+    </linearGradient>
+    <linearGradient id="or" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9a3d"/>
+      <stop offset="1" stop-color="#ff5f2e"/>
+    </linearGradient>
+    <linearGradient id="ph" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9eef7"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#06122b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.14" fill="#ffffff">
+    <circle cx="60" cy="70" r="7"/><circle cx="140" cy="130" r="4"/>
+    <circle cx="580" cy="420" r="6"/><circle cx="510" cy="60" r="4"/>
+    <rect x="80" y="440" width="14" height="14" rx="3"/>
+    <rect x="540" y="120" width="18" height="18" rx="4"/>
+  </g>
+
+  <!-- Code window left -->
+  <g filter="url(#sh)">
+    <rect x="40" y="120" width="330" height="270" rx="16" fill="#ffffff"/>
+    <rect x="40" y="120" width="330" height="44" rx="16" fill="#0d2a5e"/>
+    <rect x="40" y="150" width="330" height="14" fill="#0d2a5e"/>
+    <circle cx="66" cy="142" r="6" fill="#ff5f57"/>
+    <circle cx="88" cy="142" r="6" fill="#febc2e"/>
+    <circle cx="110" cy="142" r="6" fill="#28c840"/>
+    <rect x="150" y="150" width="90" height="2" fill="#ffffff" opacity="0.35"/>
+  </g>
+
+  <!-- Code lines -->
+  <g font-family="Consolas, Monaco, monospace" filter="url(#sh)">
+    <rect x="64" y="188" width="120" height="14" rx="4" fill="#ffe3d1"/>
+    <text x="70" y="200" font-size="12" fill="#c0392b">&lt;!DOCTYPE</text>
+    <rect x="64" y="212" width="90" height="14" rx="4" fill="#d8e6ff"/>
+    <text x="70" y="224" font-size="12" fill="#1d5dd0">html</text>
+    <rect x="64" y="236" width="180" height="14" rx="4" fill="#d8e6ff"/>
+    <text x="70" y="248" font-size="12" fill="#e8590c">class="app"</text>
+    <rect x="64" y="260" width="150" height="14" rx="4" fill="#dff3dc"/>
+    <text x="70" y="272" font-size="12" fill="#2e7d32">printFullStack()</text>
+    <rect x="64" y="284" width="110" height="14" rx="4" fill="#eceef4"/>
+    <text x="70" y="296" font-size="12" fill="#555a66">return true;</text>
+    <rect x="64" y="308" width="200" height="14" rx="4" fill="#d8e6ff"/>
+    <text x="70" y="320" font-size="12" fill="#1d5dd0">export buildApp</text>
+    <rect x="64" y="332" width="80" height="14" rx="4" fill="#ffe3d1"/>
+    <text x="70" y="344" font-size="12" fill="#c0392b">&lt;/code&gt;</text>
+  </g>
+
+  <!-- Floating badge: Full Stack -->
+  <g transform="translate(150,40)" filter="url(#sh)">
+    <rect width="150" height="38" rx="19" fill="url(#cbg2)"/>
+    <circle cx="26" cy="19" r="11" fill="#ffffff" opacity="0.18"/>
+    <text x="26" y="24" text-anchor="middle" font-size="13" fill="#ffffff">&#9881;</text>
+    <text x="46" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Full Stack Dev</text>
+  </g>
+
+  <!-- Floating badge: Courses -->
+  <g transform="translate(350,470)" filter="url(#sh)">
+    <rect width="150" height="38" rx="19" fill="url(#or)"/>
+    <circle cx="26" cy="19" r="11" fill="#ffffff" opacity="0.22"/>
+    <text x="26" y="24" text-anchor="middle" font-size="12" fill="#ffffff">&#10003;</text>
+    <text x="46" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Practical Courses</text>
+  </g>
+
+  <!-- Mobile phone right -->
+  <g transform="translate(430,220)" filter="url(#sh)">
+    <rect width="160" height="300" rx="26" fill="url(#ph)" stroke="#d7e0ee" stroke-width="2"/>
+    <rect x="6" y="14" width="148" height="20" rx="6" fill="#dfe6f2"/>
+    <rect x="60" y="16" width="40" height="4" rx="2" fill="#9fb0c8"/>
+    <rect x="18" y="48" width="124" height="40" rx="10" fill="url(#cbg2)"/>
+    <text x="80" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">VJS App</text>
+    <rect x="18" y="98" width="124" height="10" rx="5" fill="#d8e0ec"/>
+    <rect x="18" y="114" width="96" height="10" rx="5" fill="#d8e0ec"/>
+    <rect x="18" y="140" width="124" height="52" rx="10" fill="#eef2f9"/>
+    <rect x="28" y="152" width="40" height="26" rx="6" fill="url(#or)"/>
+    <rect x="76" y="152" width="56" height="26" rx="6" fill="url(#cbg2)"/>
+    <rect x="18" y="202" width="124" height="52" rx="10" fill="#eef2f9"/>
+    <rect x="28" y="214" width="40" height="26" rx="6" fill="url(#or)"/>
+    <rect x="76" y="214" width="56" height="26" rx="6" fill="url(#cbg2)"/>
+    <rect x="60" y="266" width="40" height="16" rx="8" fill="#c3cddd"/>
+  </g>
+
+  <!-- Small laptop bottom-left -->
+  <g transform="translate(60,410)" filter="url(#sh)">
+    <rect width="150" height="60" rx="10" fill="#ffffff" stroke="#d7e0ee" stroke-width="2"/>
+    <rect x="12" y="12" width="126" height="30" rx="5" fill="#0d2a5e"/>
+    <circle cx="75" cy="56" r="4" fill="#c3cddd"/>
+    <rect x="25" y="78" width="100" height="8" rx="4" fill="#e2e8f2"/>
+  </g>
+
+  <!-- Floating orange chip -->
+  <g transform="translate(300,210)" filter="url(#sh)">
+    <circle r="20" fill="url(#or)"/>
+    <text y="7" text-anchor="middle" font-size="18" fill="#ffffff">&#8984;</text>
+  </g>
+</svg>
