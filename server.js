@@ -294,3 +294,8 @@ app.use((err, req, res, next) => {
   });
 });
 
+/* ---------- Start server ---------- */
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`VJS Soft Solutions website running on port ${PORT}`);
+});
+
